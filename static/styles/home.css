@@ -34,7 +34,7 @@ a {
         position: absolute;
         top: 0%;
         right: -1%;
-        background-color: rgb(235, 144, 80);
+        background-color: rgb(158, 81, 27);
         width: 30%;
         height: 100vh;
         overflow: 0;
@@ -43,18 +43,18 @@ a {
 
     #Menu {
         float: right;
-        padding: 20px;
+        padding: 30px;
         font-size: 26px;
-        color: rgba(255, 255, 255, 0.801);
+        color: rgba(255, 255, 255, 0.87);
         
     }
 
     #close {
         float: right;
         padding: 20px;
-        margin-right: 26%;
+        margin-right: 30%;
         font-size: 28px;
-        color: rgba(255, 255, 255, 0.801);
+        color: rgba(255, 255, 255, 0.87);
 
     }
 
@@ -66,27 +66,37 @@ a {
         margin-left: 30%;
         justify-content: center;
         align-items: center;
-        
+        width: 30%;
         
     }
+
+    .info-Container a {
+       margin-top:50px;
+       
+       
+    }
+    
+
+    
+    
 
     #info {
         color:white ;
         font-size: 22px;
-        margin-top: 50px;
+        
        
     }
 
     #home {
         color:white ;
         font-size: 22px;
-        margin-top: 50px;
+        
     }
 
     #resume {
         color:white ;
         font-size: 22px;
-        margin-top: 50px;
+       
 
     }
     
@@ -94,12 +104,10 @@ a {
     #contact {
         color:white ;
         font-size: 22px;
-        margin-top: 50px;
+        
     }
 
     .title-Container{
-        display: flex;
-        flex-direction: column;
         position: absolute ;
         top: 50%;
         left: 50%;
@@ -123,7 +131,7 @@ a {
         font-family: cursive;
         color: white;
         font-size: 43px;
-        margin-left: 4%;
+        
     }
 
     .video-Container{

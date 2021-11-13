@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/07b5a5889e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static' , filename = 'styles/info.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Cherif</title>
+</head>
+<body>
+    <div class="Main">
+        <div class="logo-Menu">
+            <i class="fas fa-bars" id="Menu"></i>
+        </div> 
+
+        <div class="menu-Content">
+            <i class="far fa-times-circle" id="close"></i>
+            <div class="info-Container">
+                <a href="{{ url_for('home') }}"><i class="fas fa-home" id="home"></i></a>
+                <a href="#"><i class="fas fa-info-circle" id="info"></i></a>
+                <a href="#"><i class="far fa-file" id="resume"></i></a>
+                <a href="#"><i class="far fa-address-book" id="contact"></i></a>
+            
+            </div>
+        </div>
+
+        <div class="description">
+           <div class="titleC">
+               <h1>Meet mohamed Cherif</h1>
+           </div>
+
+           <div class="imageC">
+                <img src="{{url_for('static' , filename = 'images/mo.jpg')}}" alt="">
+           </div>
+           <h2 class="h2">Who am I? </h2>
+           <div class="whoiam">
+               
+               <p>
+                
+                   a computer science student with hands
+                   in IT in general . i loves making web apps
+               </p>
+
+               <p>
+                   some one with a good graps of engineering
+                   concepts , data structures , and algorithms
+               </p>
+
+               <p>
+                   Currently on my second year of bachelor
+               </p>
+           </div>
+           <h2>What I do </h2>
+           <div class="whatido">
+                <div class="ido">
+                    <i class="fab fa-html5" id="html"></i>
+                    <div class="ref">
+                        <p>Front-End Web Development</p>
+                    </div>
+                </div>
+
+                <div class="ido">
+                    <i class="fas fa-globe" id="html"></i>
+                    <div class="ref">
+                        <p>Front-End Web Development</p>
+                    </div>
+                </div>
+           </div>
+
+           <div class="end">
+                <p>
+                    Feel free to <a href="mailto:mocherifh0@gmail.com@gmail.com?subject=Questions"> reach out at me </a>
+                    with any IT projects Idea
+                </p>
+           </div>
+
+        </div>
+        <div class="video-Container">
+            <video autoplay loop muted>
+                <source src="{{url_for('static' , filename = 'videos/home.mp4')}}">
+            </video>
+        </div>
+    </div>
+</body>
+<script 
+    src="{{url_for('static' , filename = 'styles/home.js')}}">
+</script>
+</html>
