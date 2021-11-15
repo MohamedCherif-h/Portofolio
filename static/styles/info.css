@@ -6,9 +6,10 @@
 
 @media screen and (max-width:600px) {
     .Main {
-        position:sticky;
+        position:relative;
         width: 100%;
         overflow: hidden;
+        height: 100vh;
     }
 
     /*hamburger menu */
