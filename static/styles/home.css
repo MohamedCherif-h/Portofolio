@@ -37,7 +37,7 @@ a {
         background-color: rgb(158, 81, 27);
         width: 30%;
         height: 100vh;
-        overflow: 0;
+        overflow: hidden;
         z-index: 2;
     }
 
