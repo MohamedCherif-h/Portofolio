@@ -1,10 +1,12 @@
-*{
-    margin: 0 ;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 @media screen and (max-width:600px) {
+    *{
+        margin: 0 ;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
     .Main {
         position:relative;
         width: 100%;
@@ -32,7 +34,7 @@
         background-color: rgb(15, 53, 75);
         width: 30%;
         height: 100vh;
-        overflow: 0;
+        overflow: hidden;
         z-index: 2;
     }
 
