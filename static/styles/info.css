@@ -31,7 +31,7 @@
         position: absolute;
         top: 0%;
         right: -1%;
-        background-color: rgb(15, 53, 75);
+        background-color: #483434;
         width: 30%;
         height: 100vh;
         overflow: hidden;
@@ -110,13 +110,14 @@
         position: absolute ;
         top: 50%;
         left: 50%;
-        transform: translate(-50% , -58%);
+        transform: translate(-50% , -50%);
         z-index: 1;
         background-color: white;
         width: 90%;
         overflow: auto;
         height: 480px;
-        border-radius: 8px;
+        border-radius: 3px;
+        margin-top: -2%;
     }
 
     .titleC {
