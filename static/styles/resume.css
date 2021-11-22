@@ -139,12 +139,12 @@
        line-height: 20px;
        font-size: 15px;
        margin-top: 1.5%;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: "Karla",sans-serif;
     }
      h1 {
          font-size: 20px;
          font-weight: 620;
-         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
      }
 
     .Education {
@@ -156,7 +156,7 @@
         color: darkgray;
         font-size: 10px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
     }
 
     .content-school {
@@ -169,13 +169,12 @@
         color: brown;
         font-weight: 600;
         font-size: 18px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .schoolname p {
         font-size: 13px;
         font-style: italic;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
     }
 
     .date {
