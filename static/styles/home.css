@@ -33,7 +33,7 @@
 
 .title-Container h2 {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -242,11 +242,10 @@ a:active {
        
     }
     .title-Container h2 {
-       
+       font-size: 20px;
         margin-top: 5%;
         margin-left: 10%;
         color: white;
-        font-size: 25px;
         font-weight: 100;
     }
 
