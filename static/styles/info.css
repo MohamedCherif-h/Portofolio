@@ -128,6 +128,7 @@
     }
 
     h1 {
+        font-size: 20px;
         font-family: cursive;
         color: rgb(15, 53, 75);
     }
@@ -151,6 +152,7 @@
     }
 
     h2 {
+        font-size: 20px;
         font-weight: 600;
         padding-left: 8%;
         padding-top: 8%;

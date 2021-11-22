@@ -133,6 +133,7 @@
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
      h1 {
+         font-size: 20px;
          font-weight: 620;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      }
@@ -144,7 +145,7 @@
 
     .Education h3 {
         color: darkgray;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
