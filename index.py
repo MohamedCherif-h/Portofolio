@@ -9,3 +9,7 @@ def home():
 @app.route("/info")
 def info ():
     return render_template ('info.html')
+
+@app.route("/resume")
+def resume ():
+    return render_template ('resume.html')

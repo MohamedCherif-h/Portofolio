@@ -1,6 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title-Container{
+    position: absolute ;
+    top: 60%;
+    left: 90%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    padding-left: 6%;
+   z-index: 1;
+   
+}
+.title-Container h1 {
+     
+    font-family: cursive;
+    color: white;
+    font-size: 43px;
+
+    
+}
+
+.title-Container h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+    margin-top: 3%;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.icons {
+    margin-top: 2%;
+    display: flex;
+    z-index: 1;
+    width: 25%;
+    justify-content: space-between;
+   
+}
+
+
+#instagram {
+    font-size: 32px;
+    color: white;
+}
+
+#github {
+    font-size: 32px;
+    color: white;
+}
+
+#linkedin {
+    font-size: 32px;
+    color: white;
+}
+
+#enveloppe {
+    font-size: 32px;
+    color: white;
+}
+
+#twiter {
+    font-size: 32px;
+    color: white;
+}
+
+ .video-Container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.menu-Content {
+    display: none;
+}
+
+#Menu {
+    display: none;
+    
+}
+
+img {
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+a:active {
+    text-decoration: line-through;
+  }
+
+.link a:link {
+    color: red;
+}
+
+
+
+
+
+
 
 @media screen and (max-width:600px) {
 
@@ -43,6 +165,7 @@ a {
     }
 
     #Menu {
+        display: block;
         float: right;
         padding: 30px;
         font-size: 26px;
@@ -135,6 +258,10 @@ a {
         
     }
 
+    .link {
+        display: none;
+    }
+
     .video-Container{
         width: 100%;
         overflow: hidden;
@@ -145,6 +272,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: auto;
         z-index: 1;
        
     }

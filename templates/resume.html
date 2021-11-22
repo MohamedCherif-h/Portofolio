@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/07b5a5889e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static' , filename = 'styles/resume.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Cherif</title>
+</head>
+<body>
+    <div class="Main">
+        <div class="logo-Menu">
+            <i class="fas fa-bars" id="Menu"></i>
+        </div> 
+
+        <div class="menu-Content">
+            <i class="far fa-times-circle" id="close"></i>
+            <div class="info-Container">
+                <a href="{{ url_for('home') }}"><i class="fas fa-home" id="home"></i></a>
+                <a href="{{ url_for('info') }}"><i class="fas fa-info-circle" id="info"></i></a>
+                <a href="{{ url_for('resume') }}"><i class="far fa-file" id="resume"></i></a>
+                <a href="#"><i class="far fa-address-book" id="contact"></i></a>
+            
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="headerDescription">
+                <h1>Resume</h1>
+                <p>
+                    Learn more about my skills, qualifications and experiences.
+                </p>
+            </div>
+
+            <div class="Education">
+                <h1>Education</h2>
+                <h3>ACADEMIC CAREER</h3>
+
+               <div class="content-school">
+                <div class="field">
+                    <h2>Computer Engineering</h2>
+                </div>
+                <div class="schoolname">
+                    <p>
+                        higher institute of engineering and business ,
+                        casablanca Morocco
+
+                    </p>
+                </div>
+
+                <div class="date">
+                    <p>
+                        Oct 2020 - Present
+                    </p>
+                </div>
+
+                <div class="relevant">
+                   <p>
+                       Relevant Courses : Bool Algebra ,
+                       combinatorial logic , Linear Algebra , mathematical analysis ,
+                       C programming Language , Algorithmic , Assembler ,
+                       Business & Communication , Computer Math , Cloud Computing
+                    </p>
+
+                </div>
+               </div>
+
+            </div>
+
+            <footer class="footer">
+                <h1>Tech Stack</h1>
+                <h3>Tools & Technologies</h3>
+                <div class="stack">
+                    <img src="{{url_for('static' , filename = 'images/js.png')}}" alt="">
+                    <img src="{{url_for('static' , filename = 'images/flask.png')}}" alt="">
+                    <img src="{{url_for('static' , filename = 'images/html5.png')}}" alt="">
+                    <img src="{{url_for('static' , filename = 'images/css3.jpg')}}" alt="">
+                    <img src="{{url_for('static' , filename = 'images/react.png')}}" alt="">
+                    <img src="{{url_for('static' , filename = 'images/python.png')}}" alt="">
+  
+                </div>
+            </footer>
+
+        </div>
+
+        <div class="video-Container">
+            <img src="{{url_for('static' , filename = 'images/moo.jpg')}}" alt="">
+            
+        </div>
+    </div>
+</body>
+<script 
+    src="{{url_for('static' , filename = 'styles/home.js')}}">
+</script>
+</html>
