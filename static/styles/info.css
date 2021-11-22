@@ -8,9 +8,7 @@
         overflow: hidden;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    p {
-        font-size: 100%;
-    }
+    
     .Main {
         position:relative;
         width: 100%;
@@ -147,6 +145,7 @@
     }
 
     .whoiam p {
+        font-size: 13px;
         padding: 2%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -195,6 +194,7 @@
     }
 
     .ref p {
+        font-size: 13px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -215,6 +215,7 @@
     }
 
     .end p {
+        font-size: 13px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 

@@ -7,9 +7,7 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    p {
-        font-size: 100%;
-    }
+   
     .Main {
         position:relative;
         width: 100%;
@@ -130,6 +128,7 @@
     }
 
     .headerDescription p {
+        font-size: 13px;
        margin-top: 1.5%;
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -163,6 +162,7 @@
     }
 
     .schoolname p {
+        font-size: 13px;
         font-style: italic;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -176,12 +176,17 @@
     }
 
     .date p {
+        font-size: 13px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 
     .relevant  {
         margin-top: 7%;
+    }
+
+    .relevant p {
+        font-size: 13px;
     }
 
     .footer {
