@@ -128,7 +128,8 @@
     }
 
     .headerDescription p {
-        font-size: 13px;
+       line-height: 20px;
+       font-size: 15px;
        margin-top: 1.5%;
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -179,7 +180,7 @@
 
     .date p {
         font-size: 13px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Karla', sans-serif;
     }
 
 
@@ -188,6 +189,7 @@
     }
 
     .relevant p {
+        font-family: 'Karla', sans-serif;
         font-size: 13px;
     }
 
